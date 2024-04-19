@@ -166,6 +166,7 @@ nav {
 .containerC{
     display: flex;
     flex: row;
+    position: absolute;
 }
 .boxA{
     height: 45vw;
