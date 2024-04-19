@@ -111,6 +111,7 @@ nav {
     display: flex;
     flex: row;
     height: 28vw;
+    position: fixed;
 
 }
 .containerB .column {
