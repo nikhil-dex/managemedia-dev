@@ -93,6 +93,12 @@ nav {
 }
 
 /* main */
+main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-column: 100vw;
+}
 
 /* container */
 .containerA{
