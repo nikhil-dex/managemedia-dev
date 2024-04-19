@@ -1,16 +1,46 @@
-.containerD{
+.box1,.box2{
     display: flex;
-    background: rgb(241, 241, 241);
-    flex-wrap: wrap;
-    justify-content: center;
+    flex: row;
+    /* background: rgb(241, 241, 241); */
+    gap: 10px;
 }
-
+#element1,#element4{
+    padding: 27px;
+    width: 46%;
+    height: 100vh;
+    background: white;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#element1 h2,#element4 h2{
+    margin: 20px;
+    font-size: 40px;
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#element1 i p,#element4 i p{
+    padding: 15px;
+    color: rgb(67, 67, 67);
+    font-family: cursive;
+    text-align: center;
+}
+#element1 p,#element4 p{
+    padding: 30px 200px;
+    text-align: start;
+    line-height: 1.8;
+}
 #element2{
-    background: url("images-1/conD-1.jpg") no-repeat center;
-}
-#element3{
-    background: url("images-1/conD-2.jpg no-repeat center");
-}
-#element2,#element3{
+    padding: 30px;
+    width: 50%;
+    height: 90vh;
+    background: url("images/conD-1.jpg") no-repeat center;
     background-size: cover;
 }
+#element3{
+    padding: 30px;
+    width: 50%;
+    background: url("images/conD-2.jpg") no-repeat center;
+    background-size: cover;
+}
+

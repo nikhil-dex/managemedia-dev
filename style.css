@@ -169,7 +169,7 @@ nav {
 .boxA{
     height: 45vw;
     width: 50vw;
-    background: url("images-1/gridC-1.jpg") no-repeat center;
+    background: url("images/gridC-1.jpg") no-repeat center;
     background-size: cover;
     color: white; 
     display: flex;
@@ -191,16 +191,16 @@ nav {
     height: 22.5vw;
 }
 #I{
-    background: url("images-1/gridC-2.jpg") no-repeat center;
+    background: url("images/gridC-2.jpg") no-repeat center;
 }
 #II{
-    background: url("images-1/gridC-3.jpg") no-repeat center;
+    background: url("images/gridC-3.jpg") no-repeat center;
 }
 #III{
-    background: url("images-1/gridC-4.jpg") no-repeat center;
+    background: url("images/gridC-4.jpg") no-repeat center;
 }
 #IV{
-    background: url("images-1/gridC-5.webp") no-repeat center;
+    background: url("images/gridC-5.webp") no-repeat center;
 }
 #I,#II,#III,#IV{
     width: 25vw;
@@ -213,47 +213,47 @@ nav {
     font-size: 25px;
 }
 .boxA:hover{
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-1.jpg")  no-repeat center;
-    background:-moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-1.jpg")  no-repeat center;
-    background:-o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-1.jpg")  no-repeat center;
-    background:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-1.jpg")  no-repeat center;
-    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-1.jpg")  no-repeat center;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-1.jpg")  no-repeat center;
+    background:-moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-1.jpg")  no-repeat center;
+    background:-o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-1.jpg")  no-repeat center;
+    background:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-1.jpg")  no-repeat center;
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-1.jpg")  no-repeat center;
     background-size: cover;
 
 }
 #I:hover{
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-2.jpg")  no-repeat center;
-    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-2.jpg")  no-repeat center;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-2.jpg")  no-repeat center;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-2.jpg")  no-repeat center;
-    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-2.jpg")  no-repeat center;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-2.jpg")  no-repeat center;
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-2.jpg")  no-repeat center;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-2.jpg")  no-repeat center;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-2.jpg")  no-repeat center;
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-2.jpg")  no-repeat center;
 
     background-size: cover;
 }
 #II:hover{
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-3.jpg")  no-repeat center;
-    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-3.jpg")  no-repeat center;   
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-3.jpg")  no-repeat center;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-3.jpg")  no-repeat center;
-    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-3.jpg")  no-repeat center;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-3.jpg")  no-repeat center;
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-3.jpg")  no-repeat center;   
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-3.jpg")  no-repeat center;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-3.jpg")  no-repeat center;
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-3.jpg")  no-repeat center;
     background-size: cover;
     
 }
 #III:hover{
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-4.jpg")  no-repeat center;
-    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-4.jpg")  no-repeat center;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-4.jpg")  no-repeat center;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-4.jpg")  no-repeat center;
-    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-4.jpg")  no-repeat center;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-4.jpg")  no-repeat center;
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-4.jpg")  no-repeat center;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-4.jpg")  no-repeat center;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-4.jpg")  no-repeat center;
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-4.jpg")  no-repeat center;
     background-size: cover;
     
 }
 #IV:hover{
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-5.webp")  no-repeat center;
-    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-5.webp")  no-repeat center;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-5.webp")  no-repeat center;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-5.webp")  no-repeat center;
-    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images-1/gridC-5.webp")  no-repeat center;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-5.webp")  no-repeat center;
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-5.webp")  no-repeat center;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-5.webp")  no-repeat center;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-5.webp")  no-repeat center;
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gridC-5.webp")  no-repeat center;
     background-size: cover;
 
 }
