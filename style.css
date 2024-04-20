@@ -118,7 +118,7 @@ main{
     display: flex;
     flex: row;
     height: 28vw;
-    position: absolute;
+  /*  position: absolute; */
 
 }
 .containerB .column {
