@@ -92,14 +92,14 @@ nav {
     }
 }
 
-/* main */
+/* main
 
 main{
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-column: auto;
-}
+}. */
 
 /* container */
 .containerA{
@@ -173,7 +173,7 @@ main{
 .containerC{
     display: flex;
     flex: row;
-    position: absolute;
+  /*  position: absolute; */
 }
 .boxA{
     height: 45vw;
