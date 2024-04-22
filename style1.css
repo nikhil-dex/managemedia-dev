@@ -1,6 +1,3 @@
-.containerD{
-    
-}
 .box1,.box2{
     display: flex;
     flex: row;
@@ -10,7 +7,7 @@
 #element1,#element4{
     padding: 27px;
     width: 46%;
-    height: 100vh;
+    /* height: 100vh; */
     background: white;
     margin-top: 30px;
     text-align: center;
@@ -29,8 +26,9 @@
     text-align: center;
 }
 #element1 p,#element4 p{
-    padding: 30px 200px;
-    text-align: start;
+    padding: 30px 10vw;
+
+    text-align: center;
     line-height: 1.8;
 }
 #element2{
@@ -42,8 +40,21 @@
 }
 #element3{
     padding: 30px;
+    height: 90vh;
     width: 50%;
     background: url("images/conD-2.jpg") no-repeat center;
     background-size: cover;
 }
-
+@media screen and (max-width: 769px){
+    .box1,.box2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #element1,#element4,#element2,#element3{
+        width: 100%;
+    }
+    #element1,#element4{
+        padding: 10px;
+    }
+    
+}
