@@ -92,33 +92,30 @@ nav {
     }
 }
 
-/* main
-
+/* main */
 main{
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-column: auto;
-}. */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 /* container */
 .containerA{
     display: flex;
     padding-left: 40px;
     height: 44.5vw;
-    /* background: white; */
     align-items: center;
     font-size: 2vw;
 }
 
 
-/* grid container */
+/* flex containerB */
 .containerB{
-    background: grey;
     display: flex;
-    flex: row;
     height: 28vw;
-  /*  position: absolute; */
+    background: grey;
+    flex: row;
+    
 
 }
 .containerB .column {
@@ -173,7 +170,6 @@ main{
 .containerC{
     display: flex;
     flex: row;
-  /*  position: absolute; */
 }
 .boxA{
     height: 45vw;
@@ -286,14 +282,19 @@ main{
 
 
 @media screen and (max-width: 769px){
+    main{
+        flex-direction: column;
+    }
     .containerA{
         height: 250px;
         font-size: 20px;
+        
     }
 
     .containerB{
         display: flex;
         flex-wrap: wrap;
+        clear: both;
     }
 
     #c1{
@@ -310,6 +311,7 @@ main{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        clear: both;
     }
     .boxA{
         height: 60vw;
