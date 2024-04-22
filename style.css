@@ -112,10 +112,9 @@ main{
 /* flex containerB */
 .containerB{
     display: flex;
-    height: 28vw;
+    /* height: 28vw; */
     background: grey;
-    flex: row;
-    
+    flex: row; 
 
 }
 .containerB .column {
@@ -166,10 +165,19 @@ main{
     font-weight: 100;
 }
 
+
 /* containerC flex */
+/* .containerB{
+    display: flex;
+
+    background: grey;
+    flex: row; 
+
+} */
 .containerC{
     display: flex;
     flex: row;
+;
 }
 .boxA{
     height: 45vw;
@@ -323,7 +331,7 @@ main{
     }
     .boxB{
         width: 100%;
-        height: 60vw;
+        /* height: 60vw; */
     }
     #I,#II,#III,#IV{
         width: 100%;
