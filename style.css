@@ -6,11 +6,11 @@
 }
 body{
     min-height: 100vh;
-    background: linear-gradient(70deg,white,yellow,gold);
-    background: -moz-linear-gradient(70deg,white,yellow,gold);
-    background: -o-linear-gradient(70deg,white,yellow,green);
-    background: -webkit-linear-gradient(70deg,white,yellow,gold);
-    background: -ms-linear-gradient(70deg,white,yellow,gold);
+    background: linear-gradient(75deg,white,gold);
+    background: -moz-linear-gradient(75deg,white,gold);
+    background: -o-linear-gradient(75deg,white,gold);
+    background: -webkit-linear-gradient(75deg,white,gold);
+    background: -ms-linear-gradient(75deg,white,gold);
     /* background-size: 300% 300%;  */
     animation: coloro 12s ease-in-out infinite;
     -moz-animation: coloro 12s ease-in-out infinite;
