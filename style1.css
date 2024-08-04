@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Quicksand:wght@300..700&display=swap');
 .containerD{
     display: grid;
     grid-template-columns: auto;
@@ -19,6 +20,7 @@
     padding-bottom: 20px;
 }
 #element1 h2,#element4 h2{
+    color: green;
     margin: 20px;
     font-size: 40px;
     padding: 25px;
@@ -39,18 +41,115 @@
 #element2{
     padding: 30px;
     width: 50%;
-    height: 100vh;
+    height: 70vh;
     background: url("images/conD-1.jpg") no-repeat center;
     background-size: cover;
 }
 #element3{
     padding: 30px;
-    height: 100vh;
+    height: 70vh;
     width: 50%;
-    background: url("images/conD-2.jpg") no-repeat center;
+    background: url("images/conD-2.webp") no-repeat center;
     background-size: cover;
 }
+.containerE{
+    padding: 3rem 10% 3rem 10%;
+    /* background: linear-gradient(45deg,rgb(251, 251, 251),rgb(218, 218, 218),grey); */
+    background: url("images/bg-1.jpg") no-repeat;
+    background-size: cover;
+    width: 80%;
+    text-align: center;
+    margin: 5px 0 5px 0;
+}
+.containerE h2 a{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: gold;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    position: relative;
+    top: 3px;
+    animation: shake 1s linear infinite;
+}
+.containerE h2 span{
+    height: 10px;
+    width: 10px;
+    background: url("https://lottie.host/embed/32edd214-c06e-4dd2-8eaa-27877454a8c4/H3BF5IKMxt.json");
+}
+.containerF{
+    padding: 20px;
+    background: white;
+    
+}
+#contF{
+    padding: 5rem 7rem 5rem 7rem;
+    background: white;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  #sectionnav{
+    position: sticky;
+    top: 75px;
+  }
+#accordion .card{
+    border: none;
+}
+
+@keyframes shake {
+    0%{
+        top: 4px;
+    }
+    50%{
+        top: 0px
+    }
+    100%{
+        top: 4px;
+    }
+    
+}
+
 @media screen and (max-width: 769px){
+    #acornav,#acornav a{
+        margin: 0;
+        padding: 0;
+      }
+    #containerBG{
+        flex-wrap: wrap;
+    }
+    .containerE{
+        width: auto;
+    }
+    .containerE h2 a{
+        font-size: 1rem;
+    }
     .box1,.box2{
         display: flex;
         flex-wrap: wrap;
@@ -65,4 +164,7 @@
         height: 70vw;
     }
     
+}
+.containerD,.containerE{
+    overflow: hidden;
 }

@@ -1,38 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
     min-height: 100vh;
-    background: linear-gradient(75deg,white,gold);
-    background: -moz-linear-gradient(75deg,white,gold);
-    background: -o-linear-gradient(75deg,white,gold);
-    background: -webkit-linear-gradient(75deg,white,gold);
-    background: -ms-linear-gradient(75deg,white,gold);
-    /* background-size: 300% 300%;  */
+    /* background: url("https://cdnl.iconscout.com/lottie/premium/preview-watermark/waves-background-6550227-5526347.mp4"); */
+    background: linear-gradient(45deg,white,gold,green);
+    background: -moz-linear-gradient(45deg,white,gold,green);
+    background: -o-linear-gradient(45deg,white,gold,green);
+    background: -webkit-linear-gradient(45deg,white,gold,green);
+    background: -ms-linear-gradient(45deg,white,gold,green);
     animation: coloro 12s ease-in-out infinite;
     -moz-animation: coloro 12s ease-in-out infinite;
     -o-animation: coloro 12s ease-in-out infinite;
     -webkit-animation: coloro 12s ease-in-out infinite;
     -ms-animation: coloro 12s ease-in-out infinite;
-    /* animation: coloro 12s ease-in-out infinite; */
+
     
 }
-@keyframes coloro{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 50% 100%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
-}
-header {
-    background: transparent;
+
+header{
+    background: gold;
     color: black;
     padding: 10px 20px;
     display: flex;
@@ -40,6 +36,8 @@ header {
     align-items: center;
     position: sticky;
     top: 0px;
+    z-index: 10;
+    height: fit-content;
 }
 
 .logo {
@@ -51,6 +49,8 @@ nav {
 .nav-links {
     list-style: none;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nav-links li {
     margin-right: 20px;
@@ -68,7 +68,7 @@ nav {
     .nav-links {
         display: none;
         flex-direction: column;
-        background: rgb(2, 201, 2);
+        background: gold;
         backdrop-filter: blur(20px);
         position: absolute;
         top: 60px;
@@ -105,7 +105,37 @@ main{
     padding-left: 40px;
     height: 44.5vw;
     align-items: center;
-    font-size: 2vw;
+    /* background: linear-gradient(90deg,white,gold,green);
+    background: -moz-linear-gradient(90deg,white,gold,green);
+    background: -o-linear-gradient(90deg,white,gold,green);
+    background: -webkit-linear-gradient(90deg,white,gold,green);
+    background: -ms-linear-gradient(90deg,white,gold,green);
+    animation: coloro 12s ease-in-out infinite;
+    -moz-animation: coloro 12s ease-in-out infinite;
+    -o-animation: coloro 12s ease-in-out infinite;
+    -webkit-animation: coloro 12s ease-in-out infinite;
+    -ms-animation: coloro 12s ease-in-out infinite; */
+}
+.containerA h2{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
+.containerA h2 span{
+    color: gold;
+}
+@keyframes coloro{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
 
 
@@ -163,6 +193,7 @@ main{
     font-style: bold;
     color: black;
     font-weight: 100;
+    color: red;
 }
 
 
@@ -177,7 +208,9 @@ main{
 .containerC{
     display: flex;
     flex: row;
-;
+}
+.containerC span{
+    color: green;
 }
 .boxA{
     height: 45vw;
@@ -202,6 +235,9 @@ main{
 .boxB img{
     width: 25vw;
     height: 22.5vw;
+}
+#pE{
+    text-align: center;
 }
 #I{
     background: url("images/gridC-2.jpg") no-repeat center;
@@ -295,8 +331,10 @@ main{
     }
     .containerA{
         height: 250px;
-        font-size: 20px;
-        
+        font-size: 20px; 
+    }
+    .containerA h2{
+        font-size: 2rem;
     }
 
     .containerB{
@@ -402,7 +440,13 @@ main{
         width: 100%;
         height: 47.5vw;
     }
+    footer{
+        flex-wrap: wrap;
+    }
 
+}
+.containerA,.containerB,.containerC{
+    overflow: hidden;
 }
 
 
