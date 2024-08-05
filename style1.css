@@ -105,13 +105,20 @@
   }
   
   .fa-linkedin {
+    float: start;
     background: #007bb5;
     color: white;
   }
   
   
   .fa-instagram {
+      display: inline-block;
     background: #125688;
+    color: white;
+  }
+  .fa-whatsapp{
+    display: inline-block;
+    background: green;
     color: white;
   }
 
@@ -137,6 +144,20 @@
 }
 
 @media screen and (max-width: 769px){
+    .containerF{
+        padding: 0;
+        margin: 0;
+
+    }
+    /* 
+    #contF{
+        padding: 0;
+       margin: 0; 
+       font-size: 10px; 
+    } */
+    #contF h2{
+        font-size: 20px;
+    }
     #acornav,#acornav a{
         margin: 0;
         padding: 0;
